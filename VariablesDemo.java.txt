@@ -1,0 +1,12 @@
+public class VariablesDemo 
+{
+ public static void main(String[]args)
+{
+  String name ="Malini";
+  int year = 3;
+  double cgpa = 8.5;
+System.out.println("Name:"+ name);
+system.out.println("Year of study:"+ year);
+system.out.println("Current CGPA:"+ cgpa);
+}
+}
