@@ -1,0 +1,13 @@
+public class JavaBasics
+{
+public static void main(String[]args)
+{
+String name="Malini";
+int age= 21;
+double cgpa=8.56;
+int roundedCgpa= (int)cgpa;
+System.out.println("Student:"+ name);
+System.out.println("Original CGPA:"+cgpa);
+System.out.println("Rounded CGPA:"+ roundedcgpa);
+}
+}
