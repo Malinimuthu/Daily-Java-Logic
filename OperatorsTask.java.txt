@@ -1,0 +1,19 @@
+public class OperatorsTask 
+{
+public static void main (String[]args)
+{
+int a = 10;
+int b = 3;
+// 1.Arithmetic 
+ int sum = a+b;
+int remainder = a%b;
+//2.Relational
+Boolean isGreater = a>b;
+//3.logical
+Boolean logicalcheck = (a>5) && (b<5);
+System.out.println("Sum:"+sum);
+System.out.println("Remainder of 10/3:"+ remainder);
+System.out.println("Is 10>3?"+isGreater);
+System.out.println("Logical And Result:"+ logicalcheck);
+}
+}
