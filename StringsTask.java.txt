@@ -1,0 +1,19 @@
+public class StringsTask
+{
+ public static void main(String[args])
+{
+ String firstName = "Malilni";
+ String lastName = "Muthu";
+ 
+// 1. concatenation
+ Strig fullname = firstname + ""+lastname;
+ System.out.println("Full Name:"+ full name);
+
+// 2.lenth
+ System.out.println("Total Characters:"+ fullname.length());
+
+//3. changing case
+ System.out.println("Upper Case:"+ firstname.touppercase());
+
+// 4. specific char
+ System.out.println("First Letter:" + firstname.charAt(1));
