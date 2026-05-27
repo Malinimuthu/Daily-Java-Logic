@@ -1,0 +1,28 @@
+public class ControlFlowTask {
+    public static void main(String[] args) {
+        int examScore = 85;
+
+         1. If-Else-If Example
+        if (examScore >= 90) {
+            System.out.println("Grade: O (Outstanding)");
+        } else if (examScore >= 80) {
+            System.out.println("Grade: A (Excellent)"); 
+        } else {
+            System.out.println("Grade: B (Good)");
+        }
+
+        // 2. Switch Case Example
+        char attendanceStatus = 'P';
+
+        switch (attendanceStatus) {
+            case 'P':
+                System.out.println("Student is Present. Allowed for exam.");
+                break;
+            case 'A':
+                System.out.println("Student is Absent. Fine applicable.");
+                break;
+            default:
+                System.out.println("Invalid Status Code.");
+        }
+    }
+}
