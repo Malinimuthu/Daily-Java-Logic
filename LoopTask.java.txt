@@ -1,0 +1,17 @@
+public class LoopTask {
+    public static void main(String[] args) {
+        
+        System.out.println("--- For Loop Example ---");
+       
+        for (int i = 1; i <= 3; i++) {
+            System.out.println("For Count: " + i);
+        }
+
+        System.out.println("--- While Loop Example ---");
+        int count = 1;
+        while (count <= 3) {
+            System.out.println("While Count: " + count);
+            count++; 
+        }
+    }
+}
